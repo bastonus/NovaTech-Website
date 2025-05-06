@@ -4,19 +4,55 @@ Ce document contient des prompts détaillés et précis pour générer chaque im
 
 ## Logo et éléments de branding
 
-### 1. Logo (logo.svg)
+### 1. Logo (logo.png)
 ```
-Création d'un logo moderne et minimaliste pour une agence de création de sites web. Le logo doit contenir le mot "NovaTech" en typographie Montserrat Bold avec un élément graphique géométrique abstrait évoquant le développement web ou la technologie (comme des chevrons, un fragment de code, ou un élément de circuit). Palette de couleurs strictement limitée à bleu profond (#0F2B46) et bleu clair (#4285F4). Style vectoriel avec lignes fines et propres. Formes géométriques simples. Équilibre parfait entre le texte et l'élément graphique. Le logo doit être reconnaissable même en miniature. Fond transparent obligatoire. Design adapté à une utilisation professionnelle et web.
+Création d'un logo moderne et minimaliste pour une agence de création de sites web selon le concept "Code Prism".
+
+
+Strictement limité à la palette : bleu profond (#0F2B46), bleu clair (#4285F4), orange vif (#FF6B35), turquoise (#36C5B9) et blanc (#FFFFFF)
+
+
+CONCEPT "CODE PRISM":
+- Un prisme triangulaire stylisé formé par des chevrons/brackets incomplets qui se superposent
+- Structure géométrique pointant vers la droite (symbolisant le progrès)
+- Symbole évoquant à la fois le code (< >) et la transformation/innovation
+
+STYLE VISUEL:
+- Lignes fines et propres d'épaisseur constante
+- Formes géométriques simples avec angles précis (90° ou 45°)
+- Kerning professionnel entre les lettres
+- Équilibre parfait entre le texte et l'élément graphique
+- Design minimaliste reconnaissable même en miniature
+- Aucun dégradé, ombre, texture ou effet 3D
+
+Le logo doit être exporté en plusieurs formats:
+- logo.png (800x250px) - version principale
+- logo-small.png (400x125px) - version réduite
+- logo-mini.png (200x62px) - version minimale
+- favicon.png (32x32px) - élément graphique isolé, format carré
 ```
 
 ### 2. Favicon (favicon.ico)
 ```
-Un favicon minimaliste pour une agence tech, reprenant uniquement l'élément graphique du logo sans texte. Strictement limité aux couleurs bleu profond (#0F2B46) et bleu clair (#4285F4). Design ultra-simplifié et reconnaissable à la taille 32x32 pixels. L'élément graphique doit être un symbole abstrait lié au web/code (comme un chevron stylisé, un bracket, ou une forme géométrique tech). Format parfaitement carré. Fond transparent. Lignes nettes. Adapté pour apparaître dans un onglet de navigateur.
+Un favicon minimaliste pour une agence tech, reprenant uniquement l'élément graphique "Code Prism" du logo sans texte. Strictement limité aux couleurs bleu profond (#0F2B46) et bleu clair (#4285F4). Design ultra-simplifié et reconnaissable à la taille 32x32 pixels.
+
+L'élément "Code Prism" est:
+- Une forme triangulaire stylisée créée par des chevrons/brackets incomplets qui se superposent
+- Structure géométrique simple et reconnaissable
+- Symbole évoquant le code web et la transformation
+
+Format parfaitement carré. Fond transparent. Lignes nettes. Adapté pour apparaître dans un onglet de navigateur.
 ```
 
 ### 3. Apple Touch Icon (apple-touch-icon.png)
 ```
-Icône carrée 180x180 pixels pour les appareils Apple. Reprend l'élément graphique simplifié du logo principal sur un fond parfaitement uni bleu profond (#0F2B46). Élément graphique centré en bleu clair (#4285F4). Design épuré, minimaliste, avec des proportions équilibrées. Coins légèrement arrondis (rayon de 20px) pour correspondre au style iOS. L'élément graphique occupe 60-70% de l'espace disponible. Doit rester parfaitement lisible sur un écran d'accueil iOS. Pas de dégradés ni d'effets complexes.
+Icône carrée 180x180 pixels pour les appareils Apple. Reprend l'élément graphique "Code Prism" simplifié du logo principal sur un fond parfaitement uni bleu profond (#0F2B46). Élément graphique centré en bleu clair (#4285F4).
+
+L'élément "Code Prism" est:
+- Une forme triangulaire stylisée créée par des chevrons/brackets incomplets
+- Symbole évoquant le code web et l'innovation
+
+Design épuré, minimaliste, avec des proportions équilibrées. Coins légèrement arrondis (rayon de 20px) pour correspondre au style iOS. L'élément graphique occupe 60-70% de l'espace disponible. Doit rester parfaitement lisible sur un écran d'accueil iOS. Pas de dégradés ni d'effets complexes.
 ```
 
 ## Illustrations principales
