@@ -1,0 +1,113 @@
+{
+  "tasks": [
+    {
+      "name": "Structure de base du site",
+      "description": "Créer les fichiers HTML/CSS/JS de base et la structure des dossiers",
+      "status": "todo",
+      "subtasks": [
+        "Créer index.html avec structure principale",
+        "Créer le fichier CSS principal (styles.css)",
+        "Créer le fichier JavaScript principal (main.js)",
+        "Mettre en place les méta-données SEO"
+      ]
+    },
+    {
+      "name": "Développement des pages",
+      "description": "Développer les 5 pages principales du site selon les maquettes",
+      "status": "todo",
+      "subtasks": [
+        "Page d'accueil",
+        "Page À propos",
+        "Page Services",
+        "Page Tarifs",
+        "Page Contact"
+      ]
+    },
+    {
+      "name": "Système bilingue",
+      "description": "Implémenter le système de changement de langue FR/EN",
+      "status": "todo",
+      "subtasks": [
+        "Créer les fichiers de traduction",
+        "Implémenter le sélecteur de langue",
+        "Gérer la persistance du choix de langue"
+      ]
+    },
+    {
+      "name": "Éléments visuels",
+      "description": "Intégrer les éléments visuels selon l'identité visuelle définie",
+      "status": "todo",
+      "subtasks": [
+        "Créer le logo NovaTech",
+        "Intégrer les icônes pour les services",
+        "Ajouter les illustrations pour les sections principales",
+        "Préparer les images optimisées"
+      ]
+    },
+    {
+      "name": "Animations et interactions",
+      "description": "Implémenter les animations et interactions définies",
+      "status": "todo",
+      "subtasks": [
+        "Animations au chargement des pages",
+        "Animations au défilement",
+        "Interactions des éléments d'interface",
+        "Carrousel de témoignages"
+      ]
+    },
+    {
+      "name": "Responsive design",
+      "description": "Assurer la compatibilité sur tous les appareils",
+      "status": "todo",
+      "subtasks": [
+        "Adaptation mobile (smartphone)",
+        "Adaptation tablette",
+        "Adaptation grand écran",
+        "Menu hamburger pour mobile"
+      ]
+    },
+    {
+      "name": "Formulaires",
+      "description": "Mettre en place les formulaires de contact et de devis",
+      "status": "todo",
+      "subtasks": [
+        "Formulaire de contact",
+        "Formulaire de demande de devis",
+        "Validation des champs",
+        "Feedback utilisateur"
+      ]
+    },
+    {
+      "name": "Optimisation SEO",
+      "description": "Optimiser le site pour les moteurs de recherche",
+      "status": "todo",
+      "subtasks": [
+        "Méta-descriptions pour chaque page",
+        "Structure des balises heading (H1, H2, etc.)",
+        "Optimisation des images (alt, tailles)",
+        "Plan du site (sitemap.xml)"
+      ]
+    },
+    {
+      "name": "Tests",
+      "description": "Tester le site sur différents appareils et navigateurs",
+      "status": "todo",
+      "subtasks": [
+        "Tests sur Chrome, Firefox, Safari, Edge",
+        "Tests sur smartphone et tablette",
+        "Validation W3C",
+        "Tests de performance"
+      ]
+    },
+    {
+      "name": "Déploiement",
+      "description": "Déployer le site sur GitHub Pages",
+      "status": "todo",
+      "subtasks": [
+        "Configuration du dépôt GitHub",
+        "Configuration de GitHub Pages",
+        "Test final post-déploiement"
+      ]
+    }
+  ]
+} 
