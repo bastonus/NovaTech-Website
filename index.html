@@ -36,11 +36,11 @@
             </div>
             <nav>
                 <ul class="nav-menu">
-                    <li><a href="#hero" class="active">Accueil</a></li>
-                    <li><a href="#about">À propos</a></li>
-                    <li><a href="#services">Services</a></li>
-                    <li><a href="#pricing">Tarifs</a></li>
-                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#hero" class="active" data-lang-key="menu_home">Accueil</a></li>
+                    <li><a href="#about" data-lang-key="menu_about">À propos</a></li>
+                    <li><a href="#services" data-lang-key="menu_services">Services</a></li>
+                    <li><a href="#pricing" data-lang-key="menu_pricing">Tarifs</a></li>
+                    <li><a href="#contact" data-lang-key="menu_contact">Contact</a></li>
                 </ul>
                 <div class="language-switcher">
                     <button class="active" data-lang="fr">FR</button>
@@ -60,11 +60,11 @@
     <section id="hero">
         <div class="container">
             <div class="hero-content">
-                <h1>Créez votre présence en ligne avec NovaTech</h1>
-                <p>Des sites web sur mesure, performants et abordables</p>
+                <h1 data-lang-key="hero_title">Créez votre présence en ligne avec NovaTech</h1>
+                <p data-lang-key="hero_subtitle">Des sites web sur mesure, performants et abordables</p>
                 <div class="hero-buttons">
-                    <a href="#contact" class="btn btn-primary">Obtenir un devis gratuit</a>
-                    <a href="#services" class="btn btn-secondary">En savoir plus</a>
+                    <a href="#contact" class="btn btn-primary" data-lang-key="cta_quote">Obtenir un devis gratuit</a>
+                    <a href="#services" class="btn btn-secondary" data-lang-key="cta_learn_more">En savoir plus</a>
                 </div>
             </div>
             <div class="hero-image">
@@ -76,9 +76,9 @@
     <!-- About Section -->
     <section id="about">
         <div class="container">
-            <h2>Qui sommes-nous ?</h2>
+            <h2 data-lang-key="about_title">Qui sommes-nous ?</h2>
             <div class="about-content">
-                <p>NovaTech est une agence web spécialisée dans la création de sites internet sur mesure pour les entreprises. Notre approche combine design moderne, performances techniques et tarifs compétitifs.</p>
+                <p data-lang-key="about_content">NovaTech est une agence web spécialisée dans la création de sites internet sur mesure pour les entreprises. Notre approche combine design moderne, performances techniques et tarifs compétitifs.</p>
             </div>
         </div>
     </section>
@@ -86,39 +86,39 @@
     <!-- Services Section -->
     <section id="services">
         <div class="container">
-            <h2>Nos services</h2>
+            <h2 data-lang-key="services_title">Nos services</h2>
             <div class="services-grid">
                 <div class="service-card">
                     <div class="service-icon">
                         <i class="fas fa-laptop-code"></i>
                     </div>
-                    <h3>Création de sites web</h3>
-                    <p>Des sites modernes, responsives et optimisés pour tous vos besoins.</p>
+                    <h3 data-lang-key="service_web_creation">Création de sites web</h3>
+                    <p data-lang-key="service_web_creation_desc">Des sites modernes, responsives et optimisés pour tous vos besoins.</p>
                 </div>
                 <div class="service-card">
                     <div class="service-icon">
                         <i class="fas fa-tools"></i>
                     </div>
-                    <h3>Maintenance</h3>
-                    <p>Service de maintenance standard ou premium pour garder votre site à jour.</p>
+                    <h3 data-lang-key="service_maintenance">Maintenance</h3>
+                    <p data-lang-key="service_maintenance_desc">Service de maintenance standard ou premium pour garder votre site à jour.</p>
                 </div>
                 <div class="service-card">
                     <div class="service-icon">
                         <i class="fas fa-server"></i>
                     </div>
-                    <h3>Hébergement</h3>
-                    <p>Solutions d'hébergement fiables et performantes adaptées à vos besoins.</p>
+                    <h3 data-lang-key="service_hosting">Hébergement</h3>
+                    <p data-lang-key="service_hosting_desc">Solutions d'hébergement fiables et performantes adaptées à vos besoins.</p>
                 </div>
                 <div class="service-card">
                     <div class="service-icon">
                         <i class="fas fa-search"></i>
                     </div>
-                    <h3>Référencement SEO</h3>
-                    <p>Optimisation pour les moteurs de recherche pour améliorer votre visibilité.</p>
+                    <h3 data-lang-key="service_seo">Référencement SEO</h3>
+                    <p data-lang-key="service_seo_desc">Optimisation pour les moteurs de recherche pour améliorer votre visibilité.</p>
                 </div>
             </div>
             <div class="services-cta">
-                <a href="#services-detail" class="btn btn-secondary">En savoir plus <i class="fas fa-arrow-right"></i></a>
+                <a href="#services-detail" class="btn btn-secondary" data-lang-key="cta_learn_more">En savoir plus <i class="fas fa-arrow-right"></i></a>
             </div>
         </div>
     </section>
@@ -126,11 +126,11 @@
     <!-- Services Detail Section -->
     <section id="services-detail">
         <div class="container">
-            <h2>Création de sites web</h2>
+            <h2 data-lang-key="services_detail_title">Création de sites web</h2>
             <div class="service-detail-grid">
                 <div class="service-detail-content">
-                    <h3>Sites statiques</h3>
-                    <p>Idéals pour les sites vitrines ou à contenu fixe, nos sites statiques sont rapides, sécurisés et optimisés pour le référencement.</p>
+                    <h3 data-lang-key="static_sites_title">Sites statiques</h3>
+                    <p data-lang-key="static_sites_desc">Idéals pour les sites vitrines ou à contenu fixe, nos sites statiques sont rapides, sécurisés et optimisés pour le référencement.</p>
                 </div>
                 <div class="service-detail-image">
                     <img src="images/static-site-illustration.png" alt="Illustration site web responsive">
@@ -139,36 +139,36 @@
             
             <div class="service-detail-grid reverse">
                 <div class="service-detail-content">
-                    <h3>Sites dynamiques</h3>
-                    <p>Parfaits pour les sites nécessitant des mises à jour fréquentes ou des fonctionnalités avancées. Avec ou sans WordPress, selon vos besoins.</p>
+                    <h3 data-lang-key="dynamic_sites_title">Sites dynamiques</h3>
+                    <p data-lang-key="dynamic_sites_desc">Parfaits pour les sites nécessitant des mises à jour fréquentes ou des fonctionnalités avancées. Avec ou sans WordPress, selon vos besoins.</p>
                 </div>
                 <div class="service-detail-image">
                     <img src="images/dynamic-site-illustration.png" alt="Illustration CMS">
                 </div>
             </div>
             
-            <h3>Types de sites que nous proposons</h3>
+            <h3 data-lang-key="site_types_title">Types de sites que nous proposons</h3>
             <div class="site-types-grid">
                 <div class="site-type-card">
                     <div class="site-type-icon">
                         <i class="fas fa-file"></i>
                     </div>
-                    <h4>Site one-page</h4>
-                    <p>Pour une présentation concise de votre activité</p>
+                    <h4 data-lang-key="site_type_onepage">Site one-page</h4>
+                    <p data-lang-key="site_type_onepage_desc">Pour une présentation concise de votre activité</p>
                 </div>
                 <div class="site-type-card">
                     <div class="site-type-icon">
                         <i class="fas fa-copy"></i>
                     </div>
-                    <h4>Site multi-pages</h4>
-                    <p>Pour présenter votre activité de manière détaillée</p>
+                    <h4 data-lang-key="site_type_multipages">Site multi-pages</h4>
+                    <p data-lang-key="site_type_multipages_desc">Pour présenter votre activité de manière détaillée</p>
                 </div>
                 <div class="site-type-card">
                     <div class="site-type-icon">
                         <i class="fas fa-shopping-cart"></i>
                     </div>
-                    <h4>E-commerce</h4>
-                    <p>Pour vendre vos produits ou services en ligne</p>
+                    <h4 data-lang-key="site_type_ecommerce">E-commerce</h4>
+                    <p data-lang-key="site_type_ecommerce_desc">Pour vendre vos produits ou services en ligne</p>
                 </div>
             </div>
         </div>
@@ -177,28 +177,28 @@
     <!-- Why Choose Us Section -->
     <section id="advantages">
         <div class="container">
-            <h2>Pourquoi choisir NovaTech ?</h2>
+            <h2 data-lang-key="advantages_title">Pourquoi choisir NovaTech ?</h2>
             <div class="advantages-grid">
                 <div class="advantage-card">
                     <div class="advantage-icon">
                         <i class="fas fa-user-check"></i>
                     </div>
-                    <h3>Service personnalisé</h3>
-                    <p>Chaque projet est unique et reçoit une attention personnalisée.</p>
+                    <h3 data-lang-key="advantage_personalized">Service personnalisé</h3>
+                    <p data-lang-key="advantage_personalized_desc">Chaque projet est unique et reçoit une attention personnalisée.</p>
                 </div>
                 <div class="advantage-card">
                     <div class="advantage-icon">
                         <i class="fas fa-tag"></i>
                     </div>
-                    <h3>Prix compétitifs</h3>
-                    <p>Des tarifs transparents et abordables sans compromis sur la qualité.</p>
+                    <h3 data-lang-key="advantage_pricing">Prix compétitifs</h3>
+                    <p data-lang-key="advantage_pricing_desc">Des tarifs transparents et abordables sans compromis sur la qualité.</p>
                 </div>
                 <div class="advantage-card">
                     <div class="advantage-icon">
                         <i class="fas fa-bolt"></i>
                     </div>
-                    <h3>Réactivité</h3>
-                    <p>Un service client réactif 7j/7 avec différentes options de maintenance.</p>
+                    <h3 data-lang-key="advantage_responsive">Réactivité</h3>
+                    <p data-lang-key="advantage_responsive_desc">Un service client réactif 7j/7 avec différentes options de maintenance.</p>
                 </div>
             </div>
         </div>
@@ -207,7 +207,7 @@
     <!-- Testimonials Section -->
     <section id="testimonials">
         <div class="container">
-            <h2>Ce que disent nos clients</h2>
+            <h2 data-lang-key="testimonials_title">Ce que disent nos clients</h2>
             <div class="testimonials-slider">
                 <div class="testimonial-slide active">
                     <div class="testimonial-content">
@@ -277,15 +277,15 @@
     <!-- Pricing Section -->
     <section id="pricing">
         <div class="container">
-            <h2>Nos tarifs et formules</h2>
-            <p class="section-intro">Des offres claires et transparentes, sans mauvaise surprise</p>
+            <h2 data-lang-key="pricing_title">Nos tarifs et formules</h2>
+            <p class="section-intro" data-lang-key="pricing_subtitle">Des offres claires et transparentes, sans mauvaise surprise</p>
             
             <div class="pricing-grid">
                 <div class="pricing-card">
                     <div class="pricing-header">
-                        <h3>Essentiel</h3>
+                        <h3 data-lang-key="plan_essential">Essentiel</h3>
                         <div class="pricing-price">
-                            <p>À partir de</p>
+                            <p data-lang-key="starting_at">À partir de</p>
                             <p class="price">599€</p>
                         </div>
                     </div>
@@ -299,15 +299,15 @@
                         </ul>
                     </div>
                     <div class="pricing-footer">
-                        <a href="#contact" class="btn btn-secondary">Choisir</a>
+                        <a href="#contact" class="btn btn-secondary" data-lang-key="choose">Choisir</a>
                     </div>
                 </div>
                 
                 <div class="pricing-card featured">
                     <div class="pricing-header">
-                        <h3>Business</h3>
+                        <h3 data-lang-key="plan_business">Business</h3>
                         <div class="pricing-price">
-                            <p>À partir de</p>
+                            <p data-lang-key="starting_at">À partir de</p>
                             <p class="price">999€</p>
                         </div>
                     </div>
@@ -321,15 +321,15 @@
                         </ul>
                     </div>
                     <div class="pricing-footer">
-                        <a href="#contact" class="btn btn-primary">Choisir</a>
+                        <a href="#contact" class="btn btn-primary" data-lang-key="choose">Choisir</a>
                     </div>
                 </div>
                 
                 <div class="pricing-card">
                     <div class="pricing-header">
-                        <h3>Premium</h3>
+                        <h3 data-lang-key="plan_premium">Premium</h3>
                         <div class="pricing-price">
-                            <p>À partir de</p>
+                            <p data-lang-key="starting_at">À partir de</p>
                             <p class="price">1499€</p>
                         </div>
                     </div>
@@ -343,17 +343,17 @@
                         </ul>
                     </div>
                     <div class="pricing-footer">
-                        <a href="#contact" class="btn btn-secondary">Choisir</a>
+                        <a href="#contact" class="btn btn-secondary" data-lang-key="choose">Choisir</a>
                     </div>
                 </div>
             </div>
             
             <div class="pricing-note">
-                <p>✓ Tous nos forfaits incluent : Hébergement pour 1 an, nom de domaine, certificat SSL, et 1 mois de maintenance</p>
+                <p data-lang-key="pricing_includes">✓ Tous nos forfaits incluent : Hébergement pour 1 an, nom de domaine, certificat SSL, et 1 mois de maintenance</p>
             </div>
             
             <div class="pricing-cta">
-                <a href="#contact" class="btn btn-primary">Obtenir un devis personnalisé</a>
+                <a href="#contact" class="btn btn-primary" data-lang-key="get_custom_quote">Obtenir un devis personnalisé</a>
             </div>
         </div>
     </section>
@@ -361,28 +361,28 @@
     <!-- Contact Section -->
     <section id="contact">
         <div class="container">
-            <h2>Contactez-nous</h2>
+            <h2 data-lang-key="contact_title">Contactez-nous</h2>
             <div class="contact-grid">
                 <div class="contact-form">
                     <form id="contactForm">
                         <div class="form-group">
-                            <label for="name">Nom</label>
+                            <label for="name" data-lang-key="name">Nom</label>
                             <input type="text" id="name" name="name" required>
                         </div>
                         <div class="form-group">
-                            <label for="email">Email</label>
+                            <label for="email" data-lang-key="email">Email</label>
                             <input type="email" id="email" name="email" required>
                         </div>
                         <div class="form-group">
-                            <label for="phone">Téléphone</label>
+                            <label for="phone" data-lang-key="phone">Téléphone</label>
                             <input type="tel" id="phone" name="phone">
                         </div>
                         <div class="form-group">
-                            <label for="message">Message</label>
+                            <label for="message" data-lang-key="message">Message</label>
                             <textarea id="message" name="message" rows="5" required></textarea>
                         </div>
                         <div class="form-group">
-                            <button type="submit" class="btn btn-primary">Envoyer</button>
+                            <button type="submit" class="btn btn-primary" data-lang-key="send">Envoyer</button>
                         </div>
                     </form>
                 </div>
@@ -392,7 +392,7 @@
                             <i class="fas fa-map-marker-alt"></i>
                         </div>
                         <div class="contact-info-content">
-                            <h4>Adresse</h4>
+                            <h4 data-lang-key="address_title">Adresse</h4>
                             <p>123 Avenue de la Tech, 75001 Paris</p>
                         </div>
                     </div>
@@ -401,7 +401,7 @@
                             <i class="fas fa-phone-alt"></i>
                         </div>
                         <div class="contact-info-content">
-                            <h4>Téléphone</h4>
+                            <h4 data-lang-key="phone_title">Téléphone</h4>
                             <p>+33 1 23 45 67 89</p>
                         </div>
                     </div>
@@ -410,7 +410,7 @@
                             <i class="fas fa-envelope"></i>
                         </div>
                         <div class="contact-info-content">
-                            <h4>Email</h4>
+                            <h4 data-lang-key="email_title">Email</h4>
                             <p>contact@novatech.fr</p>
                         </div>
                     </div>
@@ -419,8 +419,8 @@
                             <i class="fas fa-clock"></i>
                         </div>
                         <div class="contact-info-content">
-                            <h4>Horaires</h4>
-                            <p>Lun - Ven: 9h - 18h</p>
+                            <h4 data-lang-key="hours_title">Horaires</h4>
+                            <p data-lang-key="hours_content">Lun - Ven: 9h - 18h</p>
                         </div>
                     </div>
                 </div>
@@ -431,9 +431,9 @@
     <!-- Call to Action Section -->
     <section id="cta">
         <div class="container">
-            <h2>Prêt à lancer votre projet ?</h2>
-            <p>Contactez-nous dès aujourd'hui pour un devis gratuit et sans engagement.</p>
-            <a href="#contact" class="btn btn-primary">Demander un devis</a>
+            <h2 data-lang-key="cta_ready">Prêt à lancer votre projet ?</h2>
+            <p data-lang-key="cta_contact_today">Contactez-nous dès aujourd'hui pour un devis gratuit et sans engagement.</p>
+            <a href="#contact" class="btn btn-primary" data-lang-key="request_quote">Demander un devis</a>
         </div>
     </section>
 
@@ -450,26 +450,26 @@
                 </div>
                 <div class="footer-links">
                     <div class="footer-links-column">
-                        <h3>Navigation</h3>
+                        <h3 data-lang-key="navigation">Navigation</h3>
                         <ul>
-                            <li><a href="#hero">Accueil</a></li>
-                            <li><a href="#about">À propos</a></li>
-                            <li><a href="#services">Services</a></li>
-                            <li><a href="#pricing">Tarifs</a></li>
-                            <li><a href="#contact">Contact</a></li>
+                            <li><a href="#hero" data-lang-key="menu_home">Accueil</a></li>
+                            <li><a href="#about" data-lang-key="menu_about">À propos</a></li>
+                            <li><a href="#services" data-lang-key="menu_services">Services</a></li>
+                            <li><a href="#pricing" data-lang-key="menu_pricing">Tarifs</a></li>
+                            <li><a href="#contact" data-lang-key="menu_contact">Contact</a></li>
                         </ul>
                     </div>
                     <div class="footer-links-column">
-                        <h3>Services</h3>
+                        <h3 data-lang-key="services">Services</h3>
                         <ul>
-                            <li><a href="#services-detail">Création</a></li>
-                            <li><a href="#services">Maintenance</a></li>
-                            <li><a href="#services">Hébergement</a></li>
-                            <li><a href="#services">SEO</a></li>
+                            <li><a href="#services-detail" data-lang-key="creation">Création</a></li>
+                            <li><a href="#services" data-lang-key="maintenance_link">Maintenance</a></li>
+                            <li><a href="#services" data-lang-key="hosting_link">Hébergement</a></li>
+                            <li><a href="#services" data-lang-key="seo_link">SEO</a></li>
                         </ul>
                     </div>
                     <div class="footer-links-column">
-                        <h3>Contact</h3>
+                        <h3 data-lang-key="contact">Contact</h3>
                         <address>
                             <p>123 Avenue de la Tech, 75001 Paris</p>
                             <p>+33 1 23 45 67 89</p>
@@ -479,24 +479,24 @@
                 </div>
             </div>
             <div class="footer-newsletter">
-                <h3>Restez informé</h3>
+                <h3 data-lang-key="stay_informed">Restez informé</h3>
                 <form id="newsletterForm">
                     <div class="newsletter-form">
                         <input type="email" placeholder="Votre email">
-                        <button type="submit" class="btn btn-primary">S'inscrire</button>
+                        <button type="submit" class="btn btn-primary" data-lang-key="subscribe">S'inscrire</button>
                     </div>
                 </form>
             </div>
             <div class="footer-bottom">
                 <div class="footer-legal">
-                    <a href="#">Mentions légales</a>
+                    <a href="#" data-lang-key="legal">Mentions légales</a>
                     <span>|</span>
-                    <a href="#">Politique de confidentialité</a>
+                    <a href="#" data-lang-key="privacy">Politique de confidentialité</a>
                     <span>|</span>
-                    <a href="#">Conditions générales</a>
+                    <a href="#" data-lang-key="terms">Conditions générales</a>
                 </div>
                 <div class="footer-copyright">
-                    <p>&copy; 2023 NovaTech. Tous droits réservés.</p>
+                    <p data-lang-key="copyright">&copy; 2023 NovaTech. Tous droits réservés.</p>
                 </div>
             </div>
         </div>
@@ -508,6 +508,8 @@
     </a>
 
     <!-- JavaScript Files -->
+    <script src="js/language.js"></script>
+    <script src="js/form-validation.js"></script>
     <script src="js/main.js"></script>
 </body>
 </html> 

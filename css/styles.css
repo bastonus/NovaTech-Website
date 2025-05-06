@@ -1095,4 +1095,49 @@ nav {
     .pricing-card.featured:hover {
         transform: translateY(-10px);
     }
+}
+
+/* ===== FORM VALIDATION STYLES ===== */
+.error {
+    border-color: #e74c3c !important;
+    box-shadow: 0 0 0 2px rgba(231, 76, 60, 0.25) !important;
+}
+
+.form-messages {
+    margin-bottom: 1.5rem;
+    padding: 1rem;
+    border-radius: var(--border-radius-medium);
+    font-size: 0.9rem;
+}
+
+.form-messages.error {
+    background-color: rgba(231, 76, 60, 0.1);
+    border-left: 4px solid #e74c3c;
+    color: #c0392b;
+}
+
+.form-messages.success {
+    background-color: rgba(46, 204, 113, 0.1);
+    border-left: 4px solid #2ecc71;
+    color: #27ae60;
+}
+
+.form-messages ul {
+    margin: 0.5rem 0 0 1.5rem;
+    padding: 0;
+}
+
+.form-messages ul li {
+    margin-bottom: 0.25rem;
+}
+
+.newsletter-form input.error {
+    background-color: rgba(231, 76, 60, 0.1);
+}
+
+/* Style de focus amélioré pour les formulaires */
+input:focus:not(.error), 
+textarea:focus:not(.error) {
+    border-color: var(--color-secondary) !important;
+    box-shadow: 0 0 0 2px rgba(66, 133, 244, 0.25) !important;
 } 
